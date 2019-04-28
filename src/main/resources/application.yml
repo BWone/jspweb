@@ -1,0 +1,14 @@
+#连接数据库
+debug: true
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/springbootdb?serverTimezone=UTC
+    username: root
+    password:
+    driver-class-name: com.mysql.jdbc.Driver
+
+# jsp web 配置
+  mvc:
+    view:
+      prefix: /WEB-INF/page/
+      suffix: .jsp
